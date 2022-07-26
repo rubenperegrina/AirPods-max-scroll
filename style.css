@@ -1,0 +1,39 @@
+body {
+  font-family: Avenir, sans-serif;
+  margin: 0;
+}
+
+h2 {
+  margin: 40vh 0;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 0 20%;
+  position: relative;
+}
+
+.text-container {
+   margin-top: -50vh;
+}
+
+.title-container {
+  height: 60vh;
+  text-align: center;
+}
+
+.title-container h1 {
+  font-size: 80px;
+  margin-top: 30vh;
+}
+
+.video-container {
+  min-height: 600vh;
+}
+
+video {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
